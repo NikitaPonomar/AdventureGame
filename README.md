@@ -6,36 +6,36 @@ Allow the player to navigate between the locations in compass directions + Q (QU
 
 The console should display its current location, then it should prompt the user with: "Available exits are ", and its available exits. For example:
 
-You are standing at the end of a road before a small brick building
+        You are standing at the end of a road before a small brick building
 
-Available exits are Q, S, E, N, W, 
+        Available exits are Q, S, E, N, W, 
 
 A move in a valid direction should print (keep in mind N, S, E and W variants - showing N below):
 
-You are standing at the end of a road before a small brick building
+        You are standing at the end of a road before a small brick building
 
-Available exits are Q, S, E, N, W, 
+        Available exits are Q, S, E, N, W, 
 
-You are in the forest
+        You are in the forest
 
-Available exits are Q, S, W, 
+        Available exits are Q, S, W, 
 
 An attempt to move in an invalid direction should print a message and remain in the same place. The printed message should be: "You cannot go in that direction". For Example:
 
-You are standing at the end of a road before a small brick building
+        You are standing at the end of a road before a small brick building
 
-Available exits are Q, S, E, N, W, 
+        Available exits are Q, S, E, N, W, 
 
-You cannot go in that direction
+        You cannot go in that direction
 
-You are standing at the end of a road before a small brick building
+        You are standing at the end of a road before a small brick building
 
-Available exits are Q, S, E, N, W, 
+        Available exits are Q, S, E, N, W, 
 
 Output for quit (Q) command should be displayed as:
 
-You are standing at the end of a road before a small brick building
+        You are standing at the end of a road before a small brick building
 
-Available exits are Q, S, E, N, W, 
+        Available exits are Q, S, E, N, W, 
 
-You are sitting in front of a computer learning Java
+        You are sitting in front of a computer learning Java
