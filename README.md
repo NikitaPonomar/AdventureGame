@@ -2,6 +2,7 @@
 Here is small Adventure Game, a sort of Colossal Cave. The below technics were used: HashMap, shallow copy, constructor of Main class, non-static fields in Main class, String.split() method, containsKey() method, putIfAbsent() method
 
 Allow the player to navigate between the locations in compass directions + Q (QUIT). The player should be able to type commands such as "Go West", "run South", or just "East" and the program will move to the appropriate location if there is one.  An attempt to move in an invalid direction should print a message and remain in the same place. Single letter commands (N, W, S, E, Q) should still be available.
+![alt text](https://disk.yandex.ru/i/YI-POAmeqlZ2XA)
 
 The console should display its current location, then it should prompt the user with: "Available exits are ", and its available exits. For example:
 
